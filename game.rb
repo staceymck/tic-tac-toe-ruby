@@ -32,7 +32,7 @@ class Game
 
   def play
     puts "How to play:"
-    puts "#{player_1.name} is #{player_1.token} and #{player_2.name} is #{player_2.token}."
+    puts "#{player_1.name} is #{player_1.token} and #{player_2.name} is #{player_2.token}"
     puts "Select a position by entering a number on each turn"
     print_board([1, 2, 3, 4, 5, 6, 7, 8, 9])
 
@@ -40,7 +40,7 @@ class Game
     print_board(board)
 
     until finished?
-      puts "#{current_player.name}, choose a position."
+      puts "#{current_player.name}, choose a position"
       get_move
       print_board(board)
     end
