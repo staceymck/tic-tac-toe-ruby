@@ -30,7 +30,7 @@ class Game
     players[1]
   end
 
-  def play
+  def share_instructions
     puts "How to play:"
     puts "#{player_1.name} is #{player_1.token} and #{player_2.name} is #{player_2.token}"
     puts "Select a position by entering a number on each turn"
@@ -38,6 +38,10 @@ class Game
 
     puts "Let's get started!"
     print_board(board)
+  end
+
+  def play
+    share_instructions
 
     until finished?
       puts "#{current_player.name}, choose a position"
