@@ -1,5 +1,5 @@
 ## V1 Basic tic-tac-toe
-_2 player CLI game_
+_CLI game - 2 player or play against a computer player_
 
 To play, clone the repo into a local directory. In your terminal, navigate into the directory containing the repo and run 'ruby play.rb'.
 
@@ -16,13 +16,5 @@ Select a position by entering a number on each turn
 -----
 7|8|9
 
-Let's get started!
-
- | | 
------
- | | 
------
- | | 
-
-Player 1, choose a position
+Press 1 to play 1v1. Press 2 to play the computer.
 ```
